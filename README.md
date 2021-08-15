@@ -1,11 +1,18 @@
 # Passport-Automation-Sytem
 
+
+
+
 import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.sql.*;
 
+public class Pas {
+
 public class Admin extends JFrame implements ActionListener
 {
+    
+    
     JFrame frame;
     JPanel AdminPanel,HeadingPanel;
     JLabel AdminLabel;
@@ -884,7 +891,7 @@ public class User extends JFrame implements ActionListener
     }
 }
 
-public class Pas {
+
 
 	public static void main(String[] args) {
 		new Menu();
